@@ -20,9 +20,11 @@ public class LoginTest extends Base
 	LoginPage login;
 	HomePage home;
 	ThreadLocal<ExtentTest> extentTest = TestListener.getTestInstance();
-	@Test(dataProvider="InvalidUserCredentials",dataProviderClass=DataProviders.class)
+	
+	@Test(priority=1,enabled=true,description="TC_002_verify Invalid Login Error Message", groups={"Smoke"},dataProvider="InvalidUserCredentials",dataProviderClass=DataProviders.class)
 	public void TC_002_verifyInvalidLoginErrorMessage(String useremail,String userpassword)
 	{
+		extentTest.get().assignCategory("Smoke");
 		List<ArrayList<String>> data =ExcelUtility.excelDataReader("LoginPage");
 		String expErrMessage=data.get(1).get(2);
 		home=new HomePage(driver);

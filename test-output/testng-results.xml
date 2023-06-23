@@ -2,12 +2,18 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-22T07:57:00 IST" name="Parallel Testing" finished-at="2023-06-22T07:57:31 IST" duration-ms="30780">
+  <suite started-at="2023-06-23T07:15:35 IST" name="Suite" finished-at="2023-06-23T07:16:25 IST" duration-ms="49386">
     <groups>
+      <group name="Regression">
+        <method signature="HomeTest.TC_001_verifySubscribeEmailMessage()[pri:1, instance:com.demowebshop.testscript.HomeTest@759d26fb]" name="TC_001_verifySubscribeEmailMessage" class="com.demowebshop.testscript.HomeTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginTest.TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:1, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" name="TC_002_verifyInvalidLoginErrorMessage" class="com.demowebshop.testscript.LoginTest"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-06-22T07:57:00 IST" name="Chrome Test" finished-at="2023-06-22T07:57:27 IST" duration-ms="27064">
+    <test started-at="2023-06-23T07:15:35 IST" name="Parameter testing-Grouping" finished-at="2023-06-23T07:16:25 IST" duration-ms="49386">
       <class name="com.demowebshop.testscript.HomeTest">
-        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.demowebshop.testscript.HomeTest@71def8f8]" started-at="2023-06-22T07:57:00 IST" name="setUP" finished-at="2023-06-22T07:57:07 IST" duration-ms="6367" status="PASS">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.demowebshop.testscript.HomeTest@759d26fb]" started-at="2023-06-23T07:15:35 IST" name="setUP" finished-at="2023-06-23T07:15:47 IST" duration-ms="11343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +24,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="TC_001_verifySubscribeEmailMessage()[pri:0, instance:com.demowebshop.testscript.HomeTest@71def8f8]" started-at="2023-06-22T07:57:07 IST" name="TC_001_verifySubscribeEmailMessage" finished-at="2023-06-22T07:57:27 IST" duration-ms="20346" status="PASS">
+        <test-method signature="TC_001_verifySubscribeEmailMessage()[pri:1, instance:com.demowebshop.testscript.HomeTest@759d26fb]" started-at="2023-06-23T07:15:47 IST" name="TC_001_verifySubscribeEmailMessage" description="TC_001_verify Subscribe Email Message" finished-at="2023-06-23T07:16:08 IST" duration-ms="20931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001_verifySubscribeEmailMessage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demowebshop.testscript.HomeTest@71def8f8]" started-at="2023-06-22T07:57:27 IST" name="tearDown" finished-at="2023-06-22T07:57:27 IST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demowebshop.testscript.HomeTest@759d26fb]" started-at="2023-06-23T07:16:08 IST" name="tearDown" finished-at="2023-06-23T07:16:08 IST" duration-ms="322" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_001_verifySubscribeEmailMessage status=SUCCESS method=HomeTest.TC_001_verifySubscribeEmailMessage()[pri:0, instance:com.demowebshop.testscript.HomeTest@71def8f8] output={null}]]]>
+                <![CDATA[[TestResult name=TC_001_verifySubscribeEmailMessage status=SUCCESS method=HomeTest.TC_001_verifySubscribeEmailMessage()[pri:1, instance:com.demowebshop.testscript.HomeTest@759d26fb] output={null}]]]>
               </value>
             </param>
           </params>
@@ -34,32 +40,19 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demowebshop.testscript.HomeTest -->
-    </test> <!-- Chrome Test -->
-    <test started-at="2023-06-22T07:57:00 IST" name="FireFox Test" finished-at="2023-06-22T07:57:31 IST" duration-ms="30780">
       <class name="com.demowebshop.testscript.LoginTest">
-        <test-method is-config="true" signature="setExtent(org.testng.ITestContext)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:00 IST" name="setExtent" finished-at="2023-06-22T07:57:00 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" started-at="2023-06-23T07:16:08 IST" name="setUP" finished-at="2023-06-23T07:16:12 IST" duration-ms="4220" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7e057f43]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:01 IST" name="setUP" finished-at="2023-06-22T07:57:09 IST" duration-ms="8074" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FireFox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:09 IST" name="TC_002_verifyInvalidLoginErrorMessage" data-provider="InvalidUserCredentials" finished-at="2023-06-22T07:57:11 IST" duration-ms="1293" status="PASS">
+        <test-method signature="TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:1, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" started-at="2023-06-23T07:16:12 IST" name="TC_002_verifyInvalidLoginErrorMessage" description="TC_002_verify Invalid Login Error Message" data-provider="InvalidUserCredentials" finished-at="2023-06-23T07:16:14 IST" duration-ms="1188" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,29 +68,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002_verifyInvalidLoginErrorMessage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:11 IST" name="tearDown" finished-at="2023-06-22T07:57:12 IST" duration-ms="953" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" started-at="2023-06-23T07:16:14 IST" name="tearDown" finished-at="2023-06-23T07:16:14 IST" duration-ms="227" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_002_verifyInvalidLoginErrorMessage status=SUCCESS method=LoginTest.TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7] output={null}]]]>
+                <![CDATA[[TestResult name=TC_002_verifyInvalidLoginErrorMessage status=SUCCESS method=LoginTest.TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:1, instance:com.demowebshop.testscript.LoginTest@32ee6fee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:12 IST" name="setUP" finished-at="2023-06-22T07:57:18 IST" duration-ms="6795" status="PASS">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" started-at="2023-06-23T07:16:14 IST" name="setUP" finished-at="2023-06-23T07:16:18 IST" duration-ms="3881" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FireFox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:18 IST" name="TC_002_verifyInvalidLoginErrorMessage" data-provider="InvalidUserCredentials" finished-at="2023-06-22T07:57:20 IST" duration-ms="1261" status="PASS">
+        <test-method signature="TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:1, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" started-at="2023-06-23T07:16:18 IST" name="TC_002_verifyInvalidLoginErrorMessage" description="TC_002_verify Invalid Login Error Message" data-provider="InvalidUserCredentials" finished-at="2023-06-23T07:16:19 IST" duration-ms="1120" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,29 +106,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002_verifyInvalidLoginErrorMessage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:20 IST" name="tearDown" finished-at="2023-06-22T07:57:21 IST" duration-ms="1408" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" started-at="2023-06-23T07:16:19 IST" name="tearDown" finished-at="2023-06-23T07:16:19 IST" duration-ms="316" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_002_verifyInvalidLoginErrorMessage status=SUCCESS method=LoginTest.TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7] output={null}]]]>
+                <![CDATA[[TestResult name=TC_002_verifyInvalidLoginErrorMessage status=SUCCESS method=LoginTest.TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:1, instance:com.demowebshop.testscript.LoginTest@32ee6fee] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:21 IST" name="setUP" finished-at="2023-06-22T07:57:29 IST" duration-ms="7872" status="PASS">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" started-at="2023-06-23T07:16:19 IST" name="setUP" finished-at="2023-06-23T07:16:23 IST" duration-ms="4326" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FireFox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:29 IST" name="TC_002_verifyInvalidLoginErrorMessage" data-provider="InvalidUserCredentials" finished-at="2023-06-22T07:57:30 IST" duration-ms="1020" status="PASS">
+        <test-method signature="TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:1, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" started-at="2023-06-23T07:16:23 IST" name="TC_002_verifyInvalidLoginErrorMessage" description="TC_002_verify Invalid Login Error Message" data-provider="InvalidUserCredentials" finished-at="2023-06-23T07:16:25 IST" duration-ms="1161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,11 +144,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002_verifyInvalidLoginErrorMessage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7]" started-at="2023-06-22T07:57:30 IST" name="tearDown" finished-at="2023-06-22T07:57:31 IST" duration-ms="999" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demowebshop.testscript.LoginTest@32ee6fee]" started-at="2023-06-23T07:16:25 IST" name="tearDown" finished-at="2023-06-23T07:16:25 IST" duration-ms="235" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_002_verifyInvalidLoginErrorMessage status=SUCCESS method=LoginTest.TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscript.LoginTest@1de76cc7] output={null}]]]>
+                <![CDATA[[TestResult name=TC_002_verifyInvalidLoginErrorMessage status=SUCCESS method=LoginTest.TC_002_verifyInvalidLoginErrorMessage(java.lang.String,java.lang.String)[pri:1, instance:com.demowebshop.testscript.LoginTest@32ee6fee] output={null}]]]>
               </value>
             </param>
           </params>
@@ -163,6 +156,6 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demowebshop.testscript.LoginTest -->
-    </test> <!-- FireFox Test -->
-  </suite> <!-- Parallel Testing -->
+    </test> <!-- Parameter testing-Grouping -->
+  </suite> <!-- Suite -->
 </testng-results>
